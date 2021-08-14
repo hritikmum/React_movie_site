@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card__category {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.card__title {
+  font-family: "Poppins", sans-serif;
+}
+.heading {
+  text-align: center;
+  height: 100px;
+  padding: 30px;
+  font-family: "Poppins", sans-serif;
+  background: rgb(233, 233, 233);
+  font-size: 24px;
+}
+.card__img {
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+  margin: 0 40px 0 0;
+}
+.hero {
+  display: grid;
+
+  grid-template-rows: repeat(auto-fit, minmax(300px, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+}
+.cards {
+  margin: 20px 0 0 30px;
+}
+.card {
+  height: 350px;
+  margin: 0 30px 20px 0;
+  max-width: 250px;
+  border-radius: 10px;
+  background: #ffffff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ffffff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #ffffff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* .btn {
+} */
+.card__title {
+  text-align: center;
+  color: black;
+}
+.card__category {
+  color: #000;
+  text-align: center;
+}
+.btn {
+  height: 44px;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  background: #ffffff; /* fallback for old browsers */
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
